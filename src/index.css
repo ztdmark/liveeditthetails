@@ -98,3 +98,13 @@
     }
   }
 }
+
+@layer components {
+  .dark [data-state="selected"] {
+    background-color: hsl(240 5.9% 6%) !important;
+  }
+  
+  .dark .data-\[state\=selected\]\:bg-muted {
+    background-color: hsl(240 5.9% 6%) !important;
+  }
+}
